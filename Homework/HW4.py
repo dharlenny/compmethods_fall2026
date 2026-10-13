@@ -8,7 +8,7 @@ import argparse
 # star : TIC0000091961
 
 # opening/assignment fits file
-hdul = fits.open('/Users/dharlennysoto/CUNY/Fall_2026/Comp_Methods/Homework/tic0000091961.fits')
+hdul = fits.open('tic0000091961.fits')
 times = hdul[1].data['times']
 fluxes = hdul[1].data['fluxes']
 ferrs = hdul[1].data['ferrs']
